@@ -1,11 +1,5 @@
 """Defines the class boids.
 
-    The :func:'iterateBoids' Takes a set of boids and updates their position
-    for the next timestep.
-    Note, the following functions are used:
-    :func: 'initializeBoids' is used to create an initial set of boids.
-    the loss.
-
     Args:
         args (argparse.Namespace): The command-line arguments.
         screen: the pygame window
