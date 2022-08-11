@@ -18,7 +18,7 @@ exhibit swarm-like behavior which emerges from three simple rules:
 
 
 
-from lib.initializeBoids import boid
+from lib.BoidsClass import boid
 
 import pygame
 import argparse
