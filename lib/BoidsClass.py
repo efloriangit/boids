@@ -8,16 +8,11 @@
 
     Args:
         args (argparse.Namespace): The command-line arguments.
-        boidsData(DataFrame): Data frame containing position variables for each boid.
-
-        - **ID**: Boid ID
-        - **xCoordinate**: The boids position on the x axis
-        - **yCoordinate**: The boids position on the y axis
-        - **zCoordinate**: The boids position on the z
-        - **direction**: The direction the boid is facing.
+        screen: the pygame window
+        swarm: the set of interacting boids
 
     Returns:
-        boidsData(DataFrame): Data frame containing position variables for each boid.
+        boid object
 
     """
 
