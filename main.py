@@ -87,11 +87,8 @@ def run():
 
     - Parses command-line arguments
     - Creates boids
-    - iteratively computes boid positions
-    - iteratively visualizes boids
+    - iteratively computes boid positions and visualizes boids
 
-    Args:
-        visualize (boolean): Whether to create a visualization.
     """
 
 
