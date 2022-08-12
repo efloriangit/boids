@@ -12,3 +12,8 @@ An additional rule ensures that they stay within the boundaries of the window.
 To run, execute main.py and adjust boid behavior by setting the according flags
 
 Further information can be obtained with main.py --help
+
+Dependencies:
+pygame
+argparse
+random 

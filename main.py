@@ -13,10 +13,6 @@ exhibit swarm-like behavior which emerges from three simple rules:
 (3) Cohesion
 """
 
-# Imports
-# import argparse
-
-
 
 from lib.BoidsClass import boid
 
@@ -31,7 +27,7 @@ def parse_cmd_arguments(default=False, argv=None):
         default (bool, optional): If True, command-line arguments will be
             ignored and only the default values will be parsed.
         argv (list, optional): If provided, it will be treated as a list of
-            command- line argument that is passed to the parser in place of
+            command- line arguments that is passed to the parser in place of
             :code: sys.argv.
 
     Returns:
@@ -45,13 +41,13 @@ def parse_cmd_arguments(default=False, argv=None):
         formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
     ggroup = parser.add_argument_group('General settings')
-    ggroup.add_argument('--windowWidth', type = float, default = 1800,
+    ggroup.add_argument('--windowWidth', type = float, default = 1200,
                         help = 'Width of the pygame window in pixels')
     ggroup.add_argument('--windowHeight', type = float, default = 1200,
                         help = 'Height of the pygame window in pixels')
     ggroup.add_argument('--maxFPS', type = float, default = 60,
                         help = 'Maximum of frames per second')
-    ggroup.add_argument('--nBoids', type = int, default = 80,
+    ggroup.add_argument('--nBoids', type = int, default = 100,
                         help = 'number of boids to be created')
 
     bgroup = parser.add_argument_group('Boid settings')
