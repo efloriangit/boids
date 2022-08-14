@@ -16,4 +16,4 @@ Further information can be obtained with main.py --help
 Dependencies:
 pygame
 argparse
-random 
+random
